@@ -15,51 +15,166 @@ p, li, textarea, label, input, select {
 
 
 
-h1 {
-   /* Default font, size, and margins */
+.title {
+font-family: Poppins;
+font-size: 88px;
+font-weight: 900;
+text-align: center;
+color: #ffffff;
+background-color: #fcce00;
+margin-block-start: 8px;
+margin-block-end: 0px;
 }
 
-h2 {
-  /* Default font, size, and margins */
+.section-title {
+font-family: poppins;
+font-size: 38px;
+font-weight: 900;
+text-align: center;
+color: #ffffff;
+background-color:#ff6b00 ;
+margin-block-start: 8px;
+margin-block-end: 0px;
 }
+
+.section-rouge {
+height: 32px;
+opacity: 0.81;
+background-color: #e82020;
+margin-block-start: 8px;
+margin-block-end: 0px;
+}
+
+
+
+.section-violet {
+  height: 16px;
+  opacity:0.81;
+  background-color :#b620e0;
+  margin-block-start: 8px;
+  margin-block-end: 0px;
+}
+
+.section-bleu {
+  height: 8px;
+  opacity: 0,81;
+  background-color: blue;
+  margin-block-start: 8px;
+  margin-block-end: 0px;
+}
+
 
 h3 {
-  /* Default font, size, and margins */
+font-family: poppins;
+font-size: 40px;
+font-weight: 900;
+text-align: center;
+color: #231f20;
 }
 
-h4 {
-  /* Default font, size, and margins */
-}
-
-h5 {
-  /* Default font, size, and margins */
-}
-
-h6 {
-  /* Default font, size, and margins */
-}
-
-
-a {
-  /* Link color */
-}
-
-a:hover {
-  /* Link color on mouse over */
+.titre-boites {
+font-family: poppins;
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+color: #231f20;
 }
 
 
-/**
-* ------
-* Layout
-* ------
-*/
+.texte.boites {
+  font-family:poppins ;
+  font-size: 16px;
+  text-align: justify;
+  color: #231f20;
+  margin: 0px;
+}
+
+.big-boite1 {
+display: flex;
+justify-content: space-between;
+} 
+
+.big-boite2 {
+  display: flex;
+  justify-content: space-between;
+}
+.boite-texte1 {
+  max-width: 50%;
+  padding-left: 48px;
+  padding-right: 0px;
+}
+
+.boite-texte1 {
+  max-width: 50%;
+  padding-left: 0px;
+  padding-right: 48px;
+}
 
 
 
 
-/**
-* ----------
-* Components
-* ----------
-*/
+.button1 {
+  font-family: Poppins;
+  Font-size: 20 px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff6b00;
+  border: solid 4px #ff6b00;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 10px 36px 10px 36px;
+  float: right;
+}
+
+.button2 {
+  font-family: Poppins;
+  Font-size: 20 px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff6b00;
+  border: solid 4px #ff6b00;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 10px 36px 10px 36px;
+  float: right;  
+}
+
+.boite-image2, .boite-texte2{
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+
+.boite-image1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.boite-image3{
+  flex-basis: 0;
+  display: flex;
+  flex-grow: 1;
+  background-color: #e82020;
+  text-align: center;
+}
+.boite-texte3 {
+  max-width: 50%;
+  display: flex;
+  padding-left: 48px;
+  justify-content: space-between ;
+  padding-right: 0px;
+  text-align: center;
+}
+.button3 {
+  font-family: Poppins;
+  Font-size: 20 px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  border: solid 4px white;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 10px 36px 10px 36px;
+  float: right;
+  background-color: crimson;
+}
