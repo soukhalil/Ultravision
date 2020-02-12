@@ -13,7 +13,11 @@ p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
 
+.main-block-desktop {
+  width: 1440px;
+  height: 5896px;
 
+}
 
 .title {
 font-family: Poppins;
@@ -81,12 +85,21 @@ color: #231f20;
 }
 
 
-.texte.boites {
+.texte-boites {
+  width: 640px;
+  height: 345px;
   font-family:poppins ;
   font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: justify;
   color: #231f20;
   margin: 0px;
+  padding-left: 48px;
+  padding-right: 32px;
 }
 
 .big-boite1 {
@@ -94,24 +107,25 @@ display: flex;
 justify-content: space-between;
 } 
 
-.big-boite2 {
-  display: flex;
-  justify-content: space-between;
-}
 .boite-texte1 {
   max-width: 50%;
   padding-left: 48px;
   padding-right: 0px;
 }
 
-.boite-texte1 {
-  max-width: 50%;
-  padding-left: 0px;
-  padding-right: 48px;
+.boite-image1{
+  width: 720px;
+  height: 512px;
+  justify-content: space-between;
+  background: linear-gradient(#ff6b00, #ffffff);
+  mix-blend-mode: normal;
 }
 
-
-
+.button1-container {
+  padding-right: 28px;
+  padding-left: 507px;
+  display: inline-block;
+}
 
 .button1 {
   font-family: Poppins;
@@ -126,6 +140,27 @@ justify-content: space-between;
   float: right;
 }
 
+
+.big-boite2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boite-texte2 {
+  max-width: 50%;
+  padding-left: 0px;
+  padding-right: 48px;
+}
+
+.boite-image2{
+  width: 720px;
+  height: 512px;
+  justify-content: space-between;
+  background: linear-gradient(#ff6b00, #ffffff);
+  mix-blend-mode: normal;
+}
+
+
 .button2 {
   font-family: Poppins;
   Font-size: 20 px;
@@ -139,16 +174,10 @@ justify-content: space-between;
   float: right;  
 }
 
-.boite-image2, .boite-texte2{
-  flex-basis: 0;
-  flex-grow: 1;
-}
 
 
-.boite-image1{
-  display: flex;
-  justify-content: space-between;
-}
+
+
 
 .boite-image3{
   flex-basis: 0;
